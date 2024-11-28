@@ -1,0 +1,146 @@
+body {
+  	padding-left: 11em;
+  	padding-right: 3em;
+  	font-family: "Georgia", "Times New Roman", Times, serif;
+  	text-align: justify;
+  	color: rgb(178,34,34);
+  	background-color:AntiqueWhite;
+}
+
+h1 {
+  	font-family: Helvetica, Geneva, Arial, sans-serif;
+  	color: Maroon;
+ 	text-align: center
+}
+h3{
+	text-align: center;
+}
+
+hr{
+	color: white;
+	width: 75%;
+}
+
+ul.menu {
+  	list-style-type: none;
+  	padding: 0;
+  	margin: 0;
+  	position: absolute;
+  	top: 2em;
+  	left: 1em;
+  	width: 10em
+}
+ul.menu li {
+  	background: BurlyWood;
+  	margin: 0.5em 0;
+  	padding: 0.3em;
+  	border: 4px solid black; 
+  	text-align: center
+}
+
+ul.menu li:hover{
+	background: AntiqueWhite;
+	box-shadow: 0 0 3px 1px black;
+}
+
+img.img_sx{
+	margin-right: 10px;
+	width: 20%;
+	float: left;
+}
+
+img.img_dx{
+	margin-left: 10px;
+	width: 20%;
+	float: right;
+}
+img#mondo_francia{
+	width: 15em;
+}
+img#bandiera_francia{
+	border: solid 1px black;
+}
+
+h4#contatti{
+	text-align: center
+}
+
+ul.menu a {
+  	text-decoration: none;
+  	color: black
+}
+ 
+a:link {
+  	color: DeepPink
+}
+a:visited {
+  	color: IndianRed
+}
+  
+table.tabellaStorica{
+  	margin: auto;
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+table.tabellaStorica th, table.tabellaStorica td{
+	border: 2px solid gray;
+	color: black;
+}
+table.tabellaStorica th{
+	background-color: green;
+}
+table.tabellaStorica th.nome{
+	background-color: GreenYellow;
+}
+table.tabellaStorica td{
+	background-color: white;
+}
+
+
+
+
+
+span.importante{
+	font-weight: bold;
+}
+
+
+table.tabellaDeiLuoghi{
+	border: 3px solid black;
+	background-color: FloralWhite;
+	border-collapse: none;
+	margin-left: auto;
+  	margin-right: auto;
+  	box-shadow: 10px 10px 10px black;
+}
+table.tabellaDeiLuoghi td{
+	padding: 40px;
+}
+table.tabellaDeiLuoghi td:hover{
+	background-color: BurlyWood;
+	border: 3px solid black;
+}
+
+table.tabellaDeiLuoghi img{
+	width: 15em;
+}
+table.tabellaDeiLuoghi h5{
+	font: 17px serif;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+table.tabellaDeiLuoghi p{
+	width: 20em;
+	height: 50%;
+	font: 12px Arial, sans-serif;
+	text-align: justify;
+	color: rgb(200,34,34);
+}
+table.tabellaDeiLuoghi div.titoloImmagine{
+	color: black;
+	text-align: center;
+	font: 9px serif;
+	margin-top:3px;
+}

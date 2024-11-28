@@ -1,0 +1,15 @@
+body{
+	color: red;
+}
+p{
+	color:blue;
+	font-size: 20px;
+}
+
+span.importante{
+	font-weight: bold;
+}
+
+#bio{
+	color: yellow;
+}
